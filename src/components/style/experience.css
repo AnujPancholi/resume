@@ -1,0 +1,13 @@
+.company-logo {
+  height: 24px;
+  width: auto;
+}
+
+.role-container {
+  margin-left: 0.5rem;
+}
+
+.points-list {
+  margin-left: 0.5rem;
+  list-style: none;
+}

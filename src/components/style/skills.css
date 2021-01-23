@@ -1,0 +1,13 @@
+.skills-container {
+}
+
+.skill-category {
+  min-width: 16%;
+  border-right: 0.5px solid var(--aux-color);
+  font-size: var(--font-regular);
+}
+
+.skills-content {
+  margin-left: 0.5em;
+  font-size: var(--font-regular);
+}

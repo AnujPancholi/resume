@@ -1,0 +1,8 @@
+.education-details {
+  min-width: 75%;
+  border-right: 0.05rem solid var(--aux-color);
+}
+
+.education-period {
+  min-width: 25%;
+}

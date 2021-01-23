@@ -1,0 +1,271 @@
+{
+  "basic_details": {
+    "name": "Anuj Pancholi",
+    "tagline": "",
+    "info": [
+      {
+        "type": "EMAIL",
+        "value": ""
+      },
+      {
+        "type": "PHONE",
+        "value": ""
+      }
+    ]
+  },
+  "skills": [
+    {
+      "rank": 0,
+      "name": "Programming",
+      "skills": [
+        {
+          "name": "Nodejs",
+          "score": 100
+        },
+        {
+          "name": "Typescript",
+          "score": 90
+        },
+        {
+          "name": "Python",
+          "score": 50
+        },
+        {
+          "name": "Java",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Web Technologies",
+      "skills": [
+        {
+          "name": "React",
+          "score": 70
+        },
+        {
+          "name": "html",
+          "score": 60
+        },
+        {
+          "name": "css",
+          "score": 40
+        },
+        {
+          "name": "Material UI",
+          "score": 30
+        },
+        {
+          "name": "Netlify",
+          "score": 40
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Cloud",
+      "skills": [
+        {
+          "name": "AWS Lambda",
+          "score": 100
+        },
+        {
+          "name": "AWS S3",
+          "score": 50
+        },
+        {
+          "name": "AWS IAM",
+          "score": 40
+        },
+        {
+          "name": "AWS Cloudwatch",
+          "score": 50
+        },
+        {
+          "name": "Serverless",
+          "score": 80
+        },
+        {
+          "name": "AWS SNS",
+          "score": 50
+        },
+        {
+          "name": "AWS SQS",
+          "score": 70
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Database",
+      "skills": [
+        {
+          "name": "MongoDb",
+          "score": 90
+        },
+        {
+          "name": "MySQL",
+          "score": 30
+        },
+        {
+          "name": "PostgreSQL",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Version Control",
+      "skills": [
+        {
+          "name": "Git",
+          "score": 80
+        },
+        {
+          "name": "Gitlab",
+          "score": 70
+        },
+        {
+          "name": "Github",
+          "score": 70
+        },
+        {
+          "name": "AWS CodeCommit",
+          "score": 40
+        }
+      ]
+    }
+  ],
+  "work_experience": [
+    {
+      "start": "June 2018",
+      "end": "Present",
+      "company_name": "Intugine Technologies",
+      "roles": [
+        {
+          "title": "Senior Software Developer",
+          "period": "Dec2020-Present",
+          "points": [
+            {
+              "id": "1",
+              "text": "Maintained backend & API suite of critical project (SCT), implemented several new feature requests"
+            },
+            {
+              "id": "2",
+              "text": "Facilitated several API integrations with clients"
+            },
+            {
+                "id": "3",
+                "text": "Refactored monolithic project into loosely-coupled microservices, increasing fault tolerance, reducing cost by scaling services as needed"
+            }
+          ]
+        },
+        {
+          "title": "Software Developer",
+          "period": "Jun2018-Nov2020",
+          "points": [
+            {
+              "id": "1",
+              "text": "Tweaked existing tracking solution to build home quarantine compliance tracking during COVID-19 pandemic, used by several district-level authorities"
+            },
+            {
+              "id": "2",
+              "text": "Implemented API-based backend for revenue driver project titled \"SCT\""
+            },
+            {
+              "id": "4",
+              "text": "Implemented several 3rd-party API integrations into existing projects"
+            },
+            {
+              "id": "7",
+              "text": "Implemented command bot that provides quick updates regarding live shipments via Telegram, used by ground teams"
+            },
+            {
+              "id": "5",
+              "text": "Implemented timely automated reports and alerts for stakeholders"
+            },
+            {
+              "id": "6",
+              "text": "Implemented internal dashboard for faster identification and troubleshooting of issues and support queries"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": "March 2017",
+      "end": "June 2018",
+      "company_name": "Tata Consultancy Services",
+      "roles": [
+        {
+          "period": "Mar2017-Jun2018",
+          "title": "Assistant System Engineer",
+          "points": [
+            {
+              "id": "1",
+              "text": "Performed SIEM logs monitoring and troubleshooting as part of a robust Security Operations Team for various clients"
+            },
+            {
+              "id": "2",
+              "text": "Implemented small python scripts to automate daily tasks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": "June 2015",
+      "end": "July 2015",
+      "company_name": "Bitlevel International",
+      "roles": [
+        {
+          "period": "Jun2015-Jul2015",
+          "title": "Web Development Intern",
+          "points": [
+            {
+              "id": "1",
+              "text": "Built new company one-page website from scratch, implemented form in PHP to get client queries"
+            },
+            {
+              "id": "2",
+              "text": "Wrote scripts to manage Excel portfolio of 8000+ domain names"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Securities Portfolio API",
+      "member_count": 1,
+      "link": "github.com/AnujPancholi/securities-portfolio-api",
+      "description": "An API to make BUY/SELL trades on a set of securities in a portfolio",
+      "technologies_used": ["Nodejs", "MongoDb", "Netlify", "Postman"]
+    },
+    {
+      "title": "Fuel Logger App",
+      "member_count": 4,
+      "link": "",
+      "description": "Android app to log and track fuel consumption and costs",
+      "technologies_used": ["Android Studio", "Java", "SQLite"]
+    },
+    {
+      "title": "AptiQuest Web App",
+      "member_count": 3,
+      "link": "",
+      "description": "Web app that provided sets of quantitative aptitude questions and puzzles to gamify test prep",
+      "technologies_used": ["Java(JSP)", "css (Bootstrap)", "html", "MySQL"]
+    }
+  ],
+  "education": [
+    {
+      "accredition_name": "Bachelors of Engineering (Computer Science)",
+      "period": "2012-2016",
+      "institute": "SVITS Indore (affiliated to Rajiv Gandhi Prodyogiki Vishvavidyalaya)",
+      "location": "Indore, Madhya Pradesh, India",
+      "academic_performance": "CGPA: 7.2/10"
+    }
+  ]
+}

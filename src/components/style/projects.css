@@ -1,0 +1,13 @@
+.project-container {
+  margin-bottom: 0.25rem;
+}
+
+.project-technologies {
+  min-width: 33%;
+  border-left: 0.5px solid var(--aux-color);
+  padding-left: 5px;
+}
+
+.project-description {
+  max-width: 66%;
+}

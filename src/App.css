@@ -1,0 +1,104 @@
+:root {
+  --bgcolor: #ffffff;
+  --text-token: rgb(126 175 108);
+  --text-literal: rgb(180 163 91);
+  --text-keyname: rgb(126 175 108);
+  --aux-color: rgb(132 191 209);
+  --font-small: 10px;
+  --font-regular: 14px;
+  --font-medium: 18px;
+  --font-large: 24px;
+}
+
+body {
+  margin: 0;
+}
+
+.theme-light {
+  --bgcolor: #ffffff;
+  --text-token: rgb(126 175 108);
+  --text-literal: rgb(180 163 91);
+  --text-keyname: rgb(126 175 108);
+  --aux-color: rgb(132 191 209);
+}
+
+.theme-dark {
+  --bgcolor: rgb(30 30 30);
+  --text-token: #2787da;
+  --text-literal: #c88667;
+  --text-keyname: #9cdcfe;
+  --aux-color: #71787e;
+}
+
+/* setting height and width as per px dimensions of A4 size sheet with 96 dpi screen */
+.App {
+  background-color: var(--bgcolor);
+  width: 794px;
+  height: 1123px;
+  font-family: 'Ubuntu Mono';
+}
+
+.res-container {
+  height: inherit;
+  min-height: inherit;
+}
+
+.res-content-container {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.theme-button {
+  background-color: var(--bgcolor) !important;
+  /* border: 0.05em solid var(--aux-color) !important; */
+  max-height: var(--font-small) !important;
+  color: var(--text-token) !important;
+  box-shadow: none !important;
+}
+
+.user-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-token);
+  height: 5rem;
+  width: 5rem;
+  font-size: 4rem !important;
+  border: 0.25rem solid var(--text-token);
+  border-radius: 50%;
+}
+
+.brace-container {
+  font-size: 5rem;
+  color: var(--aux-color);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--aux-color) !important;
+}
+
+.text-literal {
+  color: var(--text-literal);
+}
+
+.text-keyname {
+  color: var(--text-keyname);
+}
+
+.text-token {
+  color: var(--text-token);
+}
+
+.text-small {
+  font-size: var(--font-small);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.name-container {
+  font-size: 2rem;
+  color: var(--text-token);
+}
