@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { LabelImportantOutlined } from '@material-ui/icons';
 
-import "../flex.css";
+import '../flex.css';
 import './style/experience.css';
 
 import services from '../services/services.js';
@@ -21,7 +21,9 @@ const ExpPointsList = ({ points }) => {
       {points.map((point) => {
         return (
           <div key={point.id}>
-            <span className="flex container flex-center-vertical text-small"><LabelImportantOutlined fontSize="inherit" /></span>
+            <span className="flex container flex-center-vertical text-small">
+              <LabelImportantOutlined fontSize="inherit" />
+            </span>
             {point.text}
           </div>
         );

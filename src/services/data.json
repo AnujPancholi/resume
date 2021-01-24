@@ -156,8 +156,8 @@
               "text": "Facilitated several API integrations with clients"
             },
             {
-                "id": "3",
-                "text": "Refactored monolithic project into loosely-coupled microservices, increasing fault tolerance, reducing cost by scaling services as needed"
+              "id": "3",
+              "text": "Refactored monolithic project into loosely-coupled microservices, increasing fault tolerance, reducing cost by scaling services as needed"
             }
           ]
         },

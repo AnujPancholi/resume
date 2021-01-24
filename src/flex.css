@@ -20,7 +20,7 @@
   align-items: flex-start;
 }
 
-.flex-center-vertical{
+.flex-center-vertical {
   justify-content: flex-start;
   align-items: center;
 }

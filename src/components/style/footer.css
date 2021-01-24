@@ -1,13 +1,14 @@
 footer {
-    --footer-height: 1em;
-    --footer-border-size: 0.05em;
-    background-color: inherit;
-    height: var(--footer-height);
-    --total-footer-height: calc(var(--footer-height) + 2*var(--footer-border-size));
-    transform: translate(0,calc(-1*var(--total-footer-height)));
+  --footer-height: 1em;
+  --footer-border-size: 0.05em;
+  background-color: inherit;
+  height: var(--footer-height);
+  --total-footer-height: calc(
+    var(--footer-height) + 2 * var(--footer-border-size)
+  );
+  transform: translate(0, calc(-1 * var(--total-footer-height)));
 }
 
-.footer{
-    
-    border-top: var(--footer-border-size) solid var(--aux-color);
+.footer {
+  border-top: var(--footer-border-size) solid var(--aux-color);
 }

@@ -5,9 +5,9 @@ const getData = () => {
 };
 
 const getBasicInfoData = () => {
-  DATA.basic_details.info.forEach(obj => {
-      obj.value = process.env[`REACT_APP_${obj.type}`];
-  })
+  DATA.basic_details.info.forEach((obj) => {
+    obj.value = process.env[`REACT_APP_${obj.type}`];
+  });
   DATA.basic_details.tagline = process.env.REACT_APP_LINKS_URL;
   return DATA.basic_details;
 };
@@ -32,8 +32,8 @@ const getEducationData = () => {
 };
 
 const getResumeUrl = () => {
-  return process.env.REACT_APP_RESUME_URL
-}
+  return process.env.REACT_APP_RESUME_URL;
+};
 
 const services = {
   getData,
@@ -42,7 +42,7 @@ const services = {
   getWorkExperienceData,
   getProjectsData,
   getEducationData,
-  getResumeUrl
+  getResumeUrl,
 };
 
 export default services;
