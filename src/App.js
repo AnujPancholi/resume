@@ -15,15 +15,15 @@ import {
   SchoolOutlined,
   WorkOutlined,
   CodeOutlined,
-  ImportantDevicesOutlined
-} from '@material-ui/icons'
+  ImportantDevicesOutlined,
+} from '@material-ui/icons';
 
 const SECTION_ICON_MAP = {
-  "Skills": CodeOutlined,
-  "Work Experience": WorkOutlined,
-  "Projects": ImportantDevicesOutlined,
-  "Education": SchoolOutlined
-}
+  Skills: CodeOutlined,
+  'Work Experience': WorkOutlined,
+  Projects: ImportantDevicesOutlined,
+  Education: SchoolOutlined,
+};
 
 function App() {
   const [theme, setTheme] = useState({
@@ -69,10 +69,26 @@ function App() {
         <Header theme={theme} cycleThemes={cycleThemes} />
 
         <div className="res-content-container">
-          <Section name="Skills" Component={Skills} Icon={SECTION_ICON_MAP["Skills"]} />
-          <Section name="Work Experience" Component={Experience} Icon={SECTION_ICON_MAP["Work Experience"]} />
-          <Section name="Projects" Component={Projects} Icon={SECTION_ICON_MAP["Projects"]} />
-          <Section name="Education" Component={Education} Icon={SECTION_ICON_MAP["Education"]} />
+          <Section
+            name="Skills"
+            Component={Skills}
+            Icon={SECTION_ICON_MAP['Skills']}
+          />
+          <Section
+            name="Work Experience"
+            Component={Experience}
+            Icon={SECTION_ICON_MAP['Work Experience']}
+          />
+          <Section
+            name="Projects"
+            Component={Projects}
+            Icon={SECTION_ICON_MAP['Projects']}
+          />
+          <Section
+            name="Education"
+            Component={Education}
+            Icon={SECTION_ICON_MAP['Education']}
+          />
         </div>
       </div>
       <Footer />
