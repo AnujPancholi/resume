@@ -2,10 +2,13 @@ import React from 'react';
 
 import './style/section.css';
 
-const Section = ({ name, Component }) => {
+const Section = ({ name, Icon, Component }) => {
   return (
     <div className="flex-container flex-vertical">
-      <div className="section-title text-token">{name}</div>
+      <div className="section-title text-medium flex-container flex-horizontal flex-center-vertical">
+        {Icon ? (<Icon fontSize="inherit" />) : ('')}
+        <div className="text-token">{name}</div>
+      </div>
       <div className="section-component-container">
         <Component />
       </div>

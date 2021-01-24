@@ -60,8 +60,6 @@ function App() {
           <Section name="Projects" Component={Projects} />
           <Section name="Education" Component={Education} />
         </div>
-
-        {/* <Footer /> */}
       </div>
       <Footer />
     </div>
