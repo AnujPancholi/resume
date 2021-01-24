@@ -4,6 +4,7 @@ import StarOutlineOutlinedIcon from '@material-ui/icons/StarOutlineOutlined';
 
 import services from '../services/services.js'
 
+import '../flex.css'
 import './style/footer.css'
 
 
@@ -19,7 +20,7 @@ const Footer = () => {
     },[])
 
     return (<footer className="text-keyname text-regular flex-container flex-center footer">
-        Like it? give it a<span> </span>{<StarOutlineOutlinedIcon fontSize="inherit" />}! {resumeUrl}
+        Like it? Give it a&nbsp;<span className="flex-container flex-center">{<StarOutlineOutlinedIcon fontSize="inherit" />}</span>! {resumeUrl}
     </footer>)
 
 }
