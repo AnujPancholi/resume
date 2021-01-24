@@ -204,7 +204,7 @@
           "points": [
             {
               "id": "1",
-              "text": "Performed SIEM logs monitoring and troubleshooting as part of a robust Security Operations Team for various clients"
+              "text": "Performed SIEM logs monitoring and troubleshooting as part of a robust SOC team for high-value clients"
             },
             {
               "id": "2",
@@ -225,11 +225,11 @@
           "points": [
             {
               "id": "1",
-              "text": "Built new company one-page website from scratch, implemented form in PHP to get client queries"
+              "text": "Built new company website from scratch, implemented form in PHP to get client queries"
             },
             {
               "id": "2",
-              "text": "Wrote scripts to manage Excel portfolio of 8000+ domain names"
+              "text": "Wrote scripts to manage portfolio of 8000+ domain names"
             }
           ]
         }
