@@ -31,6 +31,10 @@ const getEducationData = () => {
   return DATA.education;
 };
 
+const getResumeUrl = () => {
+  return process.env.REACT_APP_RESUME_URL
+}
+
 const services = {
   getData,
   getBasicInfoData,
@@ -38,6 +42,7 @@ const services = {
   getWorkExperienceData,
   getProjectsData,
   getEducationData,
+  getResumeUrl
 };
 
 export default services;

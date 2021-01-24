@@ -9,6 +9,7 @@ import Experience from './components/Experience.js';
 import Projects from './components/Projects.js';
 import Education from './components/Education.js';
 import Header from './components/Header.js';
+import Footer from './components/Footer.js';
 
 function App() {
   const [theme, setTheme] = useState({
@@ -59,7 +60,10 @@ function App() {
           <Section name="Projects" Component={Projects} />
           <Section name="Education" Component={Education} />
         </div>
+
+        {/* <Footer /> */}
       </div>
+      <Footer />
     </div>
   );
 }
