@@ -13,14 +13,14 @@ import Footer from './components/Footer.js';
 
 import {
   SchoolOutlined,
-  WorkOutlined,
+  WorkOutlineOutlined,
   CodeOutlined,
   ImportantDevicesOutlined,
 } from '@material-ui/icons';
 
 const SECTION_ICON_MAP = {
   Skills: CodeOutlined,
-  'Work Experience': WorkOutlined,
+  'Work Experience': WorkOutlineOutlined,
   Projects: ImportantDevicesOutlined,
   Education: SchoolOutlined,
 };
