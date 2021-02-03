@@ -49,6 +49,10 @@
           "score": 60
         },
         {
+          "name": "Redux",
+          "score": 30
+        },
+        {
           "name": "CSS",
           "score": 40
         },
@@ -106,11 +110,7 @@
         },
         {
           "name": "MySQL",
-          "score": 30
-        },
-        {
-          "name": "PostgreSQL",
-          "score": 30
+          "score": 10
         }
       ]
     },
