@@ -21,6 +21,9 @@
 .env.production.local
 *.env
 
+#ignoring file that contains JSON data
+data.json
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
