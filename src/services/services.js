@@ -1,3 +1,7 @@
+/*
+  The following file is gitignored and contains the actual data to be rendered in the resume.
+  May make this a file that calls an API to fetch same data later
+*/
 import DATA from './data.json';
 
 const getData = () => {
