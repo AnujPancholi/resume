@@ -90,13 +90,13 @@ const SkillCategory = ({ category }) => {
       <div className="flex-grow-1 flex-container flex-center-vertical text-keyname skill-category">
         {category.name}
       </div>
-      <div className="skills-content flex-grow-3 flex-container flex-center-vertical text-literal">
+      <div className="skills-content flex-grow-3 text-literal">
         {category.skills.map((skillObj, index) => {
           return (
             <span key={skillObj.name}>
               {skillObj.name}
               {getIconFromScore(skillObj.score, 'pessimistic')}
-              {index === category.skills.length - 1 ? `` : ` | `}{' '}
+              {index === category.skills.length - 1 ? `` : ` |`}
             </span>
           );
         })}
