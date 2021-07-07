@@ -45,10 +45,10 @@ const Header = ({ cycleThemes, theme }) => {
             <div className="name-container">{basicDetails.name}</div>
             <div className="text-keyname">{basicDetails.tagline}</div>
             <div className="text-small text-keyname" onClick={cycleThemes}>
-              Dark Mode:{' '}
+  {'{ '}theme:{' '}
               <span className="text-literal">
-                {theme.name === 'dark' ? 'ON' : 'OFF'}
-              </span>
+                {theme.name}
+              </span>{' }'} 
             </div>
           </div>
           <div className="info-container flex-container flex-vertical flex-center flex-grow-1">
