@@ -11,3 +11,7 @@
   margin-left: 0.5rem;
   list-style: none;
 }
+
+.role-period {
+  font-size: var(--font-small);
+}

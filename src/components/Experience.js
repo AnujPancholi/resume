@@ -47,7 +47,7 @@ const WorkExpContainer = ({ workExObj }) => {
             <div key={role.title} className="role-container">
               <div className="flex-container flex-horizontal flex-between">
                 <div className="text-keyname">{role.title}</div>
-                <div className="text-keyname">{role.period}</div>
+                <div className="text-keyname role-period">{role.period}</div>
               </div>
               <ExpPointsList points={role.points} />
             </div>
