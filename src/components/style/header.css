@@ -13,3 +13,7 @@
 .info-pair {
   width: 100%;
 }
+
+.theme-container {
+  cursor: pointer;
+}
