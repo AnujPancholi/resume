@@ -14,6 +14,11 @@ body {
   margin: 0;
 }
 
+a {
+  all: unset;
+  cursor: pointer;
+}
+
 .theme-light {
   --bgcolor: rgb(255 255 254);
   --text-token: rgb(232 84 101 / 1);

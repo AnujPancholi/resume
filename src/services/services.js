@@ -13,7 +13,8 @@ const getBasicInfoData = () => {
   DATA.basic_details.info.forEach((obj) => {
     obj.value = process.env[`REACT_APP_${obj.type}`];
   });
-  DATA.basic_details.tagline = process.env.REACT_APP_LINKS_URL;
+  DATA.basic_details.website_link = process.env.REACT_APP_LINKS_URL;
+  DATA.basic_details.website_text = process.env.REACT_APP_LINKS_TEXT;
   return DATA.basic_details;
 };
 

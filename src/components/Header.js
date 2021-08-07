@@ -43,7 +43,7 @@ const Header = ({ cycleThemes, theme }) => {
           <div className="brace-container">{'{'}</div>
           <div className="personal-details-container flex-container flex-start flex-grow-2 flex-vertical">
             <div className="name-container">{basicDetails.name}</div>
-            <div className="text-keyname">{basicDetails.tagline}</div>
+            <div className="text-keyname"><a className="text-keyname" href={basicDetails.website_link}>{basicDetails.website_text}</a></div>
             <div className="text-small text-keyname theme-container" onClick={cycleThemes}>
               {'{ '}theme: <span className="text-literal">{theme.name}</span>
               {' }'}
