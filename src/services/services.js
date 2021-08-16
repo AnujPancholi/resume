@@ -19,7 +19,7 @@ const getBasicInfoData = () => {
 };
 
 const getSkillsData = () => {
-  return DATA.skills.map((skillCategory) => {
+  return DATA.skill_categories.sort((a,b) => a.rank-b.rank).map((skillCategory) => {
     skillCategory.skills.sort((a, b) => b.score - a.score);
     return skillCategory;
   });
