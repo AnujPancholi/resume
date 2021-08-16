@@ -12,7 +12,7 @@
       }
     ]
   },
-  "skills": [
+  "skill_categories": [
     {
       "rank": 0,
       "name": "First Category (eg. Programming)",
@@ -76,7 +76,7 @@
       "roles": [
         {
           "title": "Title here",
-          "period": "MonYYYY-Present",
+          "period": "Mon YYYY - Present",
           "points": [
             {
               "id": "1",
@@ -90,7 +90,7 @@
         },
         {
           "title": "Title here",
-          "period": "MonYYYY-MonYYYY",
+          "period": "Mon YYYY - Mon YYYY",
           "points": [
             {
               "id": "1",
@@ -110,7 +110,7 @@
       "company_name": "Other Company Name Here",
       "roles": [
         {
-          "period": "MonYYY-MonYYYY",
+          "period": "Mon YYYY - Mon YYYY",
           "title": "Title Here",
           "points": [
             {
