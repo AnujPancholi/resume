@@ -23,15 +23,14 @@ const Footer = () => {
     
     <footer>
       <a href={resumeUrl} className="text-keyname text-regular flex-container flex-center footer">
-      Like it? Give it a&nbsp;
+      Like it? Click here and give it a&nbsp;
       <span className="flex-container flex-center">
         {<StarOutlineOutlinedIcon fontSize="inherit" />}
       </span>
       &nbsp;on&nbsp;
       <span className="flex-container flex-center">
-        {<GitHubIcon fontSize="inherit" />}
+        {<GitHubIcon fontSize="inherit" />}!
       </span>
-      &nbsp;({resumeUrl})
       </a>
     </footer>
     
