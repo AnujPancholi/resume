@@ -20,11 +20,11 @@ a {
 }
 
 .theme-light {
-  --bgcolor: rgb(255 255 254);
-  --text-token: rgb(232 84 101 / 1);
-  --text-literal: rgb(158 149 74);
-  --text-keyname: rgb(102 155 32);
-  --aux-color: rgb(132 191 209);
+  --bgcolor: #fafafa;
+  --text-token: #a94ea4;
+  --text-literal: #56a14f;
+  --text-keyname: #4078f2;
+  --aux-color: #a0a1a7;
 }
 
 .theme-dark {
