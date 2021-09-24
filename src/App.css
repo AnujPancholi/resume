@@ -22,7 +22,7 @@ a {
 .theme-light {
   --bgcolor: #fafafa;
   --text-token: #a94ea4;
-  --text-literal: #56a14f;
+  --text-literal: #3f733a;
   --text-keyname: #4078f2;
   --aux-color: #a0a1a7;
 }
@@ -30,7 +30,7 @@ a {
 .theme-dark {
   --bgcolor: rgb(30 30 30);
   --text-token: #2787da;
-  --text-literal: #c88667;
+  --text-literal: #ff9969;
   --text-keyname: #9cdcfe;
   --aux-color: #71787e;
 }
