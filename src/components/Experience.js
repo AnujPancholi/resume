@@ -20,7 +20,7 @@ const ExpPointsList = ({ points }) => {
     <div className="points-list text-literal text-regular">
       {points.map((point) => {
         return (
-          <div key={point.id}>
+          <div key={point.id} className="text-justify">
             <span className="flex container flex-center-vertical text-small">
               <LabelImportantOutlined fontSize="inherit" />
             </span>

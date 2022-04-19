@@ -98,6 +98,10 @@ a {
   font-size: var(--font-small);
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
